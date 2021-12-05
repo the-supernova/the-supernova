@@ -1,12 +1,11 @@
 name: DevCard
 
 on:
+  # Schedule updates (each hour)
+  schedule: [{cron: "0 * * * *"}]
+  # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
-  push:
-    branches:
-      - main
-  schedule:
-    - cron: "0 0 * * *"
+  push: {branches: ["master", "main"]}
 
 jobs:
   devcard:
