@@ -29,7 +29,7 @@ Here are some ideas to get you started:
     />
   </a>
 
-  <a href="https://app.daily.dev/abhi_5201"><img src="https://api.daily.dev/devcards/d7015023cdb74b00b1c94af3d2ae9844.png?r=7dj" width="256" align="right" alt="Abhijit Biswal's Dev Card"/></a>
+  <a href="https://app.daily.dev/abhi_5201"><img src="https://github.com/the-supernova/the-supernova/blob/master/devcard.svg" width="256" align="right" alt="Abhijit's Dev Card"/></a>
 </div>
 
 ## I am Abhijit Biswal
