@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1419" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1553" class="">
     <defs>
         <style/>
     </defs>
@@ -1684,15 +1684,15 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">76c3c76f</span>
-                            <span class="code">D23/Q8.md</span>
-                            <span class="code"><span class="snippet additions">++6</span> <span class="snippet deletions">--0</span></span>
+                            <span class="code">D23/Q7.md</span>
+                            <span class="code"><span class="snippet additions">++8</span> <span class="snippet deletions">--0</span></span>
                         </div>
                     </section>
                 </div>
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -0,0 +1,6 @@</span><br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">#flashcards <br /></span><span class="token prefix inserted">+</span><span class="token line">![[Pasted image 20220622115207.png]]<br /></span><span class="token prefix inserted">+</span><span class="token line">?<br /></span><span class="token prefix inserted">+</span><span class="token line">**DFS** : We iterate through the grid, indexes where we find land, we call dfs which removes all land indexes adjacent to it(left right up down) and then increment island count.<br /></span><span class="token prefix inserted">+</span><span class="token line">![[Pasted image 20220622115513.png]]<br /></span><span class="token prefix inserted">+</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -0,0 +1,8 @@</span><br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">#flashcards <br /></span><span class="token prefix inserted">+</span><span class="token line">![[Pasted image 20220622103636.png]]<br /></span><span class="token prefix inserted">+</span><span class="token line">?<br /></span><span class="token prefix inserted">+</span><span class="token line">**BFS** : First we find the indegree of all vertices, by iterating through all their neighbors and incrementing, then push the vertices into queue with indegree = 0(those would be the first elems of the sort) and start the queue operation : we pop the top elem of queue, add it to topo, then for all neighbors decrease their indegree, if their indegree becomes 0, we push them to queue. Atlast, we return topo<br /></span><span class="token prefix inserted">+</span><span class="token line">![[Pasted image 20220622105547.png]]<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">**DFS** : For every vertex, we check for vis and call dfs, which marks the vertex and for all neighbors, calls dfs if not visited. After the work's done, we push the vertex into stack. The stack has the topo sort.<br /></span><span class="token prefix inserted">+</span><span class="token line">![[Pasted image 20220622111111.png]]<br /></span></span>\No newline at end of file</code>
                         </div>
                     </section>
                 </div>
